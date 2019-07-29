@@ -1,0 +1,122 @@
+html {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    color: #fff;
+    margin-left: 100px;
+}
+
+.logo{
+    width: 83px;
+    height: 80px;
+    font-size: 32px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.navbar{
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    margin-right: 140px;
+    float: right;
+}
+
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.navbar ul li a {
+    border: 1px solid #fff;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 12px 22px;
+    margin-top: -10px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icon{
+    padding-top: 18px;
+}
+
+.icon img{
+    width: 23px;
+    height: 23px;
+    float: left;
+    padding-right: 5px;
+}
+
+.icon p{
+    font-size: 17px;
+}
+
+.img {
+    float: right;
+    margin-right: -88px;
+    margin-top: -48px;
+}
+
+.header{
+    padding-bottom: 5px;
+    line-height: 1.5;
+}
+
+h1 {
+    padding-top: 30px;
+    font-size: 57px;
+    font-weight: 400;
+    padding-right: 30px;
+    letter-spacing: 1px;
+}
+
+
+.header p {
+    margin-top: -20px;
+    opacity: 0.8;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #ffffff;
+    width: 590px;
+    
+}
+
+.button {
+    width: 170px;
+    height: 52px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 26px;
+    box-shadow: 0 10px 40px 0 rgba(254, 73, 0, 0.3);
+    background-color: rgb(254, 73, 0);
+    border: none;
+    color: #fff;
+}
